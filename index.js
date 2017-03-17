@@ -1,5 +1,8 @@
 /* @flow */
 
+/**
+ * if you remove type type annotation below, flow starts without issue
+ */
 const splitIntoArray = (str: string) => {
     return str
         .split('\n')
